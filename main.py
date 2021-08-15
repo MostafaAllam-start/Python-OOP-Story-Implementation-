@@ -47,6 +47,7 @@ if __name__ == '__main__':
     e1.send_mail('noha@gmail.com', 'congratulating about getting master degree', 'Hi, eng/Noha\nI\'m writing to you to congratulate you about master degree\nhope you best wishes', 'Noha Shehab')
     print("Mostafa's massage to Noha:")
     f = open('Noha Shehab.txt')
+    f.close()
     print(f.read())
     print("-----------------------------------------------------------------------------------------------")
     office1 = Office('office1', [e1, e2, e3])
